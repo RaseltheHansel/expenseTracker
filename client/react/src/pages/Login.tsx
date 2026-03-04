@@ -28,7 +28,7 @@ export default function Login() {
   return (
     <div className='min-h-screen bg-gray-100 flex items-center justify-center'>
       <div className='bg-white p-8 rounded-2xl shadow-lg w-full max-w-md'>
-        <h1 className='text-3xl font-bold text-gray-800 mb-2'>Welcome back!</h1>
+        <h1 className='text-3xl font-bold text-gray-800 mb-2'>Welcome back User!</h1>
         <p className='text-gray-500 mb-6'>Login to your expense tracker</p>
         {error && <p className='text-red-500 mb-4 text-sm'>{error}</p>}
         <form onSubmit={handleSubmit} className='space-y-4'>
